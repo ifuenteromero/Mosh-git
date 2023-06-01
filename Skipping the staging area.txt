@@ -1,0 +1,3 @@
+To add files and commits at the same time we use the command: 
+
+git commit -am "message"
