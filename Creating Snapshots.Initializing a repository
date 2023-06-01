@@ -1,0 +1,23 @@
+Initializing a repository
+git init
+
+Windows para ver archivos de una carpeta 
+dir
+Normalmente es ls
+
+Para ver archivos ocultos
+ls -a
+
+dir /a
+
+Abrir un archivo
+open .git
+en widows start .git
+
+
+Para interfaz en la consola con el indicativo de git
+https://dahlbyk.github.io/posh-git/
+
+rm -rf .git es para borrar el archivo .git
+
+
