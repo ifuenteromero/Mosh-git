@@ -1,0 +1,2 @@
+Escribe hola y crea archivo file1.txt
+echo hola > file1.txt
