@@ -1,2 +1,18 @@
 Escribe hola y crea archivo file1.txt
 echo hola > file1.txt
+
+
+git status
+
+git add Creating\ Snapshots/StagingFiles.txt
+
+git add file1.txt file2.txt
+
+para añadir todos los archivos txt
+git add *.txt
+
+git add .
+
+Añade una palabra (world)
+echo world >> Creating\ Snapshots/StagingFiles.txt
+world
