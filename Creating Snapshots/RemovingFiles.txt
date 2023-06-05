@@ -1,0 +1,3 @@
+Removing files
+
+rm file2.txt
