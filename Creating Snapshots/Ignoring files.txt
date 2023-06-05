@@ -1,0 +1,65 @@
+Archivos o carpetas que no queremos sincronizar con el resto del repositorio
+
+Creamos una carpeta logs
+mkdir logs
+
+
+Creamos un archivo dev.log con la palabra hola
+echo hello > logs/dev.log
+
+hacemos git status y vemos que hay un directorio por añadir al staging area logs/
+No queremos que git lo trackee así que creamos un archivo .ignore el root del proyecto
+
+echo logs/ > .gitignore
+
+
+si abrimo el gitignore code .gitignore
+
+vemos que está escrito logs/ la barra es para decir que es la carpeta o directorio logs, ignorará toda la carpeta
+
+También podemos escribir el nombre de un archivo concreto con la ruta escrita desde el root
+
+Creating Snapshots/test.txt
+
+También una expresión regular
+todos los archivos .log
+*.log
+
+Esto es si lo hacemos de una, es decir si creamos los archivos y antes de trackearlos o comiterarlos los
+añadimos al gitignore
+
+Si por error añadimos un archivo al repo y luego lo incluimos en el gitignore git no lo va a ignorar
+
+Ej
+
+Creamo un directory bin
+
+mkdir bin
+
+Creamos un archivo dentro de esta carpeta con la palabra hello
+
+echo hello > bin/app.bin
+
+Comiteamos la carpeta bin
+
+Añadimos la carpeta bin/ al gitignore
+
+Comiteamos añadir la carpeta bin al git ignore
+
+Ahora si hacemos cambios en el archivo app.git git NO LO VA A IGNORAR porque ya está trackeado
+
+
+git ls-files es para ver los archivos que están en el staging area es decir todos los que están trackeados
+
+si queremos quitar un solo archivo que ya está trackeado y lo queremos añadir al gitignore
+git rm --cached bin/app.bin
+
+Si es la carpeta entera bin/ hay que hacer con la opción -r que es para recursivo
+
+git rm --cached -r bin/
+
+si haces git ls-files ya no aparece
+
+Si ahora modificamos el archivo app.bin ya no lo está trackeando
+
+git ignore templates
