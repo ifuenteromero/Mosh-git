@@ -3,3 +3,5 @@
 Creating Snapshots/test.txt
 
 *.log
+
+bin/
