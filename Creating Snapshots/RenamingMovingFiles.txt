@@ -1,0 +1,3 @@
+Renaming or Moving files
+
+git mv currentFileName nextFileName
