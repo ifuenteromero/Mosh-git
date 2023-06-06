@@ -1,0 +1,23 @@
+Para configurar vscode como herramienta para hacer diff
+
+git config --global diff.tool vscode
+
+Como lanzar vscode al hacer git diff
+
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+
+para ver las configuraciones de git
+git config --global -e
+
+al abrirlo ver que el $LOCAL Y EL  REMOTE ESTÁN AÑADIDOS
+
+He tenido que ponerselo local ¿? tiene que quedar así
+
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+git difftool --staged para ver cambios entre lo stageado y lo comiteado
+
+git difftool para ver diferencias entre el espacio de trabajo y lo stageado
