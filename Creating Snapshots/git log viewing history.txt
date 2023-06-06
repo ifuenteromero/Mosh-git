@@ -1,0 +1,10 @@
+git log 
+
+al pulsar la tecla espacio pasa a la siguiente página
+tecla q to quit
+
+git log --oneline para ver la descripción en una línea
+
+git log --reverse para verlo en orden ascendente de primero a último
+
+git log --reverse --oneline
