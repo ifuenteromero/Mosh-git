@@ -1,0 +1,22 @@
+git show cbbee07
+hash del commit
+Para ver los cambios
+git show HEAD 
+
+git show HEAD~1 
+HEAD es el último commit 
+HEAD~1 el anterior al último
+HEAD~3 hace 3 commits
+
+Para ver un archivo tras ese commit
+git show cbbee07:file1.txt
+si está en un directorio 
+git show cbbee07:Creating\ Snapshots/Short\ status.txt
+
+Para ver todos los archivos y carpetas de un commit 
+git ls-tree cbbee07
+
+para limpiar la consola de windows cls
+
+file blob
+directory tree
