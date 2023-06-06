@@ -1,0 +1,6 @@
+git diff 
+
+muestra los cambios entre lo que no está stageado y lo que sí
+
+git diff --staged 
+Muestra las diferencias entre lo que está stageado y lo comiteado anteriormente
