@@ -8,7 +8,7 @@ Normalmente es ls
 Para ver archivos ocultos
 ls -a
 
-dir /a
+dir -a
 
 Abrir un archivo
 open .git
