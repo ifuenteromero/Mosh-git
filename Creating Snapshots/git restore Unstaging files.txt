@@ -8,5 +8,7 @@ si acabamos de añadir un archivo y no está trackeado al hacer git restore no l
 para eliminar del working directory un archivo no trackeado
 git clean -fd
 
+por otro lado git clean solo limpiará del working directory los archivos no trackeados no hará un restore de los que sí están trackeados
+
 descarta todos los cambios del staging area
 git restore --staged .
