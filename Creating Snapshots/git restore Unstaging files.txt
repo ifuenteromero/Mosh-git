@@ -1,0 +1,12 @@
+saca del stagin area al workind directory el file1
+git restore --staged file1.txt
+
+descarta los cambios de file1.txt del working directory si ya está trackeado
+git restore file1.txt
+
+si acabamos de añadir un archivo y no está trackeado al hacer git restore no lo va a eliminar del working directory
+para eliminar del working directory un archivo no trackeado
+git clean -fd
+
+descarta todos los cambios del staging area
+git restore --staged .
