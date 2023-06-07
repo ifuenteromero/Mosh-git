@@ -1,0 +1,8 @@
+tenemos el archivo file1.txt trackeado y commiteado
+
+rm file1.txt lo elimina en el working directory
+
+git rm file1.txt lo elimina y lo añade al staging area
+
+lo commiteamos pero me he equivocado y quiero restablecerlo (no borra el commit)
+git restore --source=HEAD~1 file1.txt
