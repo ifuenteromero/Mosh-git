@@ -1,0 +1,18 @@
+git log.Viewing the history log Viewing the history.txt
+
+Ver historial de commits
+git log
+
+Ver historial de commits en orden ascendente
+git log --reverse
+
+Ver historial de commits resumidos
+git log --oneline
+
+Ver historial de commits con un resumen de archivos añadidos
+git log --stat
+
+git log --oneline --stat
+
+Con cambios específicos
+git log --patch
