@@ -1,0 +1,35 @@
+Filtering the history
+
+Para ver los últimos 3 commits
+git log --oneline -3
+
+Filtrados por autoría
+git log --oneline --author="Irene"
+
+Filtrar por fecha
+git log --before="2023-05-25"
+git log --after="2023-05-25"
+
+fechas relativas
+git log --after="yesterday"
+git log --after="one week ago"
+
+filtrar por contenido del commit es casesensitive
+git log --grep="GUI"
+
+para ignorar mayúsculas y minúsculas
+git log --grep="GUI" -i 
+
+
+Para filtar por contenido. Busca qué commits han añadido o quitado un término
+git log -S"regex"
+
+para ver el contenido
+git log -S"regex" --patch
+
+para ver los commits entre un rango. Siempre de menor a mayor en el tiempo
+git log hash1..hash2
+git log HEAD5..HEAD3
+
+historial de commits de un archivo
+git log file1.txt
