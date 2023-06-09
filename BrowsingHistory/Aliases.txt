@@ -1,0 +1,5 @@
+git config --global alias.lg "log --pretty=format:'%Cgreen%an %Creset Committed %C(yellow)%h %Creset on %C(red)%cd %Creset %C(blue)%s'"
+
+git config --global alias.unstage "restore --staged ."
+
+git config --global alias.discard "restore ."
