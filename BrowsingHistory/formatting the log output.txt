@@ -1,0 +1,21 @@
+Formatting the log output
+
+Todos los commits salen formateados con la palabra hola. Unuseful
+git log --pretty=format:"hola"
+
+Muestra hola y el autor del commit (an author name)
+git log --pretty=format:"hola %an"
+
+%H hash largo del commit full hash
+git log --pretty=format:"%an %H"
+
+hash abreviado
+git log --pretty=format:"%an %h"
+
+https://git-scm.com/docs/git-log
+
+git log --pretty=format:"%an Committed %h on %cd"
+
+git log --pretty=format:"%Cgreen%an Committed %h on %cd"
+
+git log --pretty=format:"%Cgreen%an %Creset Committed %C(yellow)%h %Creset on %C(red)%cd %Creset %C(blue)%s"
