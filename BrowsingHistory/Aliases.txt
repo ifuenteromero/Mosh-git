@@ -3,3 +3,5 @@ git config --global alias.lg "log --pretty=format:'%Cgreen%an %Creset Committed 
 git config --global alias.unstage "restore --staged ."
 
 git config --global alias.discard "restore ."
+
+git config --global alias.discard '!f() { git clean -fd && git restore .; }; f'
