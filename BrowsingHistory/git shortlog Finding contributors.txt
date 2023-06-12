@@ -1,0 +1,9 @@
+git shortlog 
+
+salen el nombre de los autores y un listado de sus commits
+
+sin descripción de commits
+git shortlog -s 
+
+se puede filtrar por fecha etc
+
