@@ -1,0 +1,16 @@
+Working with branches
+
+To view de list of branches
+git branch
+
+To create a branch
+git branch branch_name
+
+To switch branches
+git switch branch_name
+
+To rename a branch
+git branch -m previous_branch_name new_branch_name
+
+To view the commits accross all branches
+git log --oneline --all
