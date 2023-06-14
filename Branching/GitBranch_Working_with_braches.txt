@@ -14,3 +14,13 @@ git branch -m previous_branch_name new_branch_name
 
 To view the commits accross all branches
 git log --oneline --all
+
+to delete local branch
+git branch -d branch_name
+
+if is not already merged
+git branch -D branch_name
+
+to delete remote branch
+git push -d origin branch_name
+
