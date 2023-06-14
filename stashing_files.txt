@@ -1,0 +1,29 @@
+stashing files
+
+solo trackeados
+git stash 
+
+solo trackeados con un mensaje
+git stash -m "message"
+
+la opción -a all incluye untrackeados
+git stash push -a 
+
+todos con un mensaje
+git stash push -am "message"
+
+los que están en el staging area
+git stash --staged
+
+git stash list
+
+para aplicarlo
+git stash apply 0
+
+para ver qué se ha aplicados
+git stash show 1
+
+para borrar el stash
+git stash drop 1
+
+git stash clear
