@@ -1,0 +1,16 @@
+listado de commits que hay en other_branch que no están en main
+Si en other_branch hay un commit más que en main si hacers git log other_branch..main
+no sale nada
+
+git log --oneline main..other_brach
+
+para ver los cambios que hay entre dos ramas 
+
+git difftool main..other_brach
+
+Si quieres ver los cambios que tiene other_branch con la rama en la que estás
+
+git difftool other_branch
+
+Para ver qué archivos van a ser modificados
+git diff --name-status main..branches/branch1 
