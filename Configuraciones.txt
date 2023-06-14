@@ -1,3 +1,18 @@
+
+--global --local --system
+
+git config --global user.name "Irene Fuente"
+
+git config --global user.email ifuenteromero@gmail.com
+
+git config --global core.editor "code --wait"
+
+En windows
+git config --global core.autocrlf true
+
+Para mac o linux
+git config --global core.autocrlf input
+
 Para configurar vscode como herramienta para hacer diff
 
 git config --global diff.tool vscode
